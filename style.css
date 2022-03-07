@@ -43,27 +43,58 @@ header{
     margin: auto;
     text-align: center;
     margin-top: 10px;
-    line-height: 50px;
-    height: 50px;
+    line-height: 60px;
+    height: 60px;
     border-radius: 20px;
     background-color: var(--przod);
     width: 90%;
 }
+.l-1{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 50px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: var(--tyl);
+    width: 90%;
+
+}
 .leson{
+    filter: blur();
+    filter: ;
     margin-left: auto;
     text-align: center;
     width: 12%;
     border-radius: 20px;
-    background-color: var(--tyl);
-}
-.name-leson{
-    font-size:10px ;
-
-    float: right;
+    background-color: var(--przod);
 }
 .room{
 
+    position: relative;
+}
+.leson:hover{
+    box-shadow: 0px 20px 16px 0px rgba(19, 114, 183, 0.63);
+
+}
+
+.room p{
+
+    position: absolute;
+    right: 20px;
+    line-height: 15px;
+    font-size:0.8vw ;
+    color: #ffffff;
+    top: ;
+    width: 50%;
+    float: right;
+}
+.room h4{
+    line-height: 60px;
     float: left;
+}
+.wtorek{
+ display: none;
 }
 @media screen  and (max-width: 1000px){
 
