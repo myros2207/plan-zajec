@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --tyl:#2955e8;
+    --przod:#0db40d;
+}
 a{
     text-decoration: none;
 }
@@ -18,25 +22,49 @@ header{
     text-align: center;
 
 }
+.conten{
+    font-size: 0.9vw;
+    display: flex;
+
+}
 
 .time{
-    padding: 10px;
-    margin: 10px;
+
     height: 1000px;
     border-radius: 20px;
-    background-color: #2955e8;
+    background-color: var(--tyl);
     width: 12%;
     text-align: center;
 }
-.l-0{
+ h2{
     margin-top: 10px;
-    line-height: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #0db40d;
-    width: 100%;
 }
+.l-0{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: var(--przod);
+    width: 90%;
+}
+.leson{
+    margin-left: auto;
+    text-align: center;
+    width: 12%;
+    border-radius: 20px;
+    background-color: var(--tyl);
+}
+.name-leson{
+    font-size:10px ;
 
+    float: right;
+}
+.room{
+
+    float: left;
+}
 @media screen  and (max-width: 1000px){
 
 }
