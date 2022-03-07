@@ -93,9 +93,46 @@ header{
     line-height: 60px;
     float: left;
 }
-.wtorek{
+.wtorek {
  display: none;
+}
+.sroda{
+    display: none;
+}
+.czwartek{
+    display: none;
+}
+.piatek{
+    display: none;
 }
 @media screen  and (max-width: 1000px){
 
+
+    .room p{
+        line-height: 3.3vw;
+        font-size: 2.5vw;
+    }
+    .conten{
+        font-size: 3vw;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .leson{
+        width: 100%;
+    }
+    .time{
+        width: 100%;
+    }
+    .piatek{
+        display: block;
+    }
+    .wtorek{
+        display: block;
+    }
+    .sroda{
+        display: block;
+    }
+    .czwartek{
+        display: block;
+    }
 }
