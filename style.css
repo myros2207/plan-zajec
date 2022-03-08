@@ -113,15 +113,27 @@ header{
         font-size: 2.5vw;
     }
     .conten{
+
         font-size: 3vw;
         display: grid;
         grid-template-columns: auto auto;
     }
+    .l-1 {
+        height: 100px;
+    }
+    .l-0 {
+        height: 100px;
+    }
+
     .leson{
-        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        width: 97%;
     }
     .time{
-        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        width: 97%;
     }
     .piatek{
         display: block;
