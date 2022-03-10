@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/time.js"></script>
     <title>Plan zajęć</title>
 </head>
-<body>
+<body onload="clockTimer();">
     <header>
+        <div class="navbar">
+
+        <div class="clockpage">
+
+            <span id="clock"></span>
+            <span id="dayOfWeek"></span>
+
+        </div>
+        </div>
         <h1>Myroslav Torbiak Klasa 1k | Moj plan zajęć</h1>
     </header>
 

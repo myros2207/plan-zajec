@@ -108,6 +108,12 @@ header{
 .menubar{
     display: none;
 }
+.navbar{
+    display: none;
+}
+.clockpage{
+    display: none;
+}
 @media screen  and (max-width: 1000px){
 
 
@@ -153,6 +159,7 @@ header{
         display: block;
     }
     .menubar{
+        box-shadow: 10px 10px 50px 15px black;
         text-align: center;
         display: flex;
         position: fixed;
@@ -160,7 +167,7 @@ header{
         height: 100px;
         left: 5%;
         width: 90%;
-        background-color: red;
+        background-color: #1ae8e8;
         border-radius: 20px;
     }
     ul{
@@ -177,5 +184,25 @@ header{
     a{
         text-decoration: none;
         margin: 40px;
+    }
+    .navbar{
+        display: flex;
+
+        width: 100%;
+        height: 50px;
+        background-color: rgba(93, 88, 88, 0.64);
+    }
+    .clockpage{
+        ;
+        font-size: 4vw;
+        margin: auto;
+        display: flex;
+    }
+    #clock{
+        margin-right: 10px;
+        float: left;
+    }
+    #dayOfWeek{
+
     }
 }
