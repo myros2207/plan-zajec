@@ -108,14 +108,37 @@ header{
 .menubar{
     display: none;
 }
-/*.navbar{*/
-/*    display: none;*/
-/*}*/
+.navbar{
+    display: flex;
+}
 .clockpage{
-    display: none;
+    /*display: none;*/
 }
 .language span a{
     width: 10%;
+}
+
+.navbar{
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    font-size: 3vw;
+}
+.clockpage{
+    margin: auto;
+}
+#dayOfWeek{
+    line-height: 40px;
+    left: 0;
+    position: absolute;
+    font-size: 1vw;
+}
+.language{
+    line-height: 40px;
+    font-size: 2vw;
+    top: 0;
+    right: 0;
+    position: absolute;
 }
 ul{
     padding: 0;
@@ -124,6 +147,20 @@ ul{
 li{
     display: inline;
 }
+
+.js-select2{
+
+    font-family: 'Gotham Pro', sans-serif;
+    height: 60px;
+    width: 37%;
+    border: none;
+    font-size: 0.9vw;
+    background: rgba(255, 0, 0, 0);
+    color: red;
+    margin-top: auto;
+    float: left;
+}
+
 @media screen  and (max-width: 1000px){
 
 
@@ -197,13 +234,12 @@ li{
     }
     .navbar{
         display: flex;
-
         width: 100%;
         height: 50px;
         background-color: rgba(93, 88, 88, 0.64);
     }
     .clockpage{
-        ;
+
         font-size: 4vw;
         margin: auto;
         display: flex;
@@ -214,5 +250,9 @@ li{
     }
     #dayOfWeek{
 
+    }
+    .js-select2{
+        width: 30%;
+        font-size: 3.2vw;
     }
 }
